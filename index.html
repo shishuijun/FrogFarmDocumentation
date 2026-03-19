@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>我的编辑器文档</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app">文档加载中...</div>
-  <script>
-    window.$docsify = {
-      name: '我的编辑器文档',
-      repo: '你的github仓库地址', // 可选：会在右上角加一个 GitHub 挂件
-      auto2top: true // 切换页面后自动跳转到顶部
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-</body>
-</html>
+<script>
+  window.$docsify = {
+    name: '种呱得呱编辑器文档',
+    repo: 'https://github.com/shishuijun/FrogFarmDocumentation',
+    auto2top: true,
+    loadSidebar: true,  // 开启侧边栏加载
+    subMaxLevel: 2      // 自动提取 Markdown 文件里的标题（h1~h2）显示在侧边栏
+  }
+</script>
