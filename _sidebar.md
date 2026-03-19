@@ -1,5 +1,3 @@
-# Table of contents
-
 * [Common](README.md)
   * [Effect](common/effect/README.md)
     * [Trigger](common/effect/trigger.md)
