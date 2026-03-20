@@ -52,10 +52,6 @@ description: 事件
 
 将range的卡牌全部转换为goalRange的卡牌（仅限一张）
 
-### -ChickenEvolution()
-
-使地里的鸡\鸡群有概率突变为更高一级的鸡\鸡群
-
 ### -TriggerTimeExplode(int num)
 
 触发时间爆炸，如果num为0，则会正常结算时间爆炸惩罚，若为1，则会免除时间爆炸惩罚
@@ -234,7 +230,7 @@ needLevel只有在大于0时会生效，否则会无视level需求
 
 ### **-RandomGrow(int num)**
 
-随机生长num次
+随机使一个植物生长num次
 
 ### -LandBackToBag(GoalRange range)
 
