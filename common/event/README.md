@@ -392,9 +392,9 @@ goal   0：手牌   1：背包
 
 打开卡牌/挂件包，第二个参数表示大包/小包，第三个参数表示有几级保底
 
-### -OpenOneOfFourteen()
+### -OpenOneOfTwelve()
 
-打开一个14选1的卡牌包
+打开一个12选1的卡牌包
 
 ### -OpenBingoOrScratch(string type;int num)
 
