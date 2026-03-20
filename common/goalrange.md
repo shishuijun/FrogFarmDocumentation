@@ -40,7 +40,7 @@ NoNameRepeat表示范围内不会有名称重复
 
 ### 物品
 
-<table data-full-width="false"><thead><tr><th>Name</th><th>Explanation</th><th>CanFilter</th></tr></thead><tbody><tr><td>Self</td><td>自身（在地里/作为卡牌）</td><td>否</td></tr><tr><td>Around</td><td>周围物品（仅在地里有效）</td><td><mark style="color:red;"><strong>是</strong></mark></td></tr><tr><td>Left</td><td>左侧物品（仅在地里有效）</td><td>否</td></tr><tr><td>Right</td><td>右侧物品（仅在地里有效）</td><td>否</td></tr><tr><td>LeftAndRight</td><td>左侧与右侧物品（仅在地里有效）</td><td>否</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Name</th><th>Explanation</th><th>CanFilter</th></tr></thead><tbody><tr><td>Self</td><td>自身（在地里/作为卡牌）</td><td>否</td></tr><tr><td>Around</td><td>周围物品（仅在地里有效）</td><td><mark style="color:red;"><strong>是</strong></mark></td></tr><tr><td>Left</td><td>左侧物品（仅在地里有效）</td><td>否</td></tr><tr><td>Right</td><td>右侧物品（仅在地里有效）</td><td>否</td></tr><tr><td>LeftAndRight</td><td>左侧与右侧物品（仅在地里有效）</td><td>否</td></tr><tr><td>Up</td><td>上方物品（仅在地里有效）</td><td>否</td></tr><tr><td>Down</td><td>下方物品（仅在地里有效）</td><td>否</td></tr><tr><td>UpAndDown</td><td>上方与下方物品（仅在地里有效）</td><td>否</td></tr></tbody></table>
 
 ### 法术
 
