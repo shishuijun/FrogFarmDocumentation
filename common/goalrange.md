@@ -46,7 +46,7 @@ NoNameRepeat表示范围内不会有名称重复
 
 以下范围仅限Trigger为Play（打出）的时候可使用
 
-<table data-full-width="false"><thead><tr><th>Name</th><th>Explanation</th><th>CanFilter</th></tr></thead><tbody><tr><td>Chosen</td><td>法术指定的物品（如有）</td><td>否</td></tr><tr><td>ChosenAround</td><td>法术指定的物品周围的物品</td><td><mark style="color:red;"><strong>是</strong></mark></td></tr><tr><td>ChosenLeft</td><td>法术指定物品的左侧物品</td><td>否</td></tr><tr><td>ChosenRight</td><td>法术指定物品的右侧物品</td><td>否</td></tr><tr><td>ChosenLeftAndRight</td><td>法术指定物品的左侧与右侧物品</td><td>否</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Name</th><th>Explanation</th><th>CanFilter</th></tr></thead><tbody><tr><td>Chosen</td><td>法术指定的物品（如有）</td><td>否</td></tr><tr><td>ChosenAround</td><td>法术指定的物品周围的物品</td><td><mark style="color:red;"><strong>是</strong></mark></td></tr><tr><td>ChosenLeft</td><td>法术指定物品的左侧物品</td><td>否</td></tr><tr><td>ChosenRight</td><td>法术指定物品的右侧物品</td><td>否</td></tr><tr><td>ChosenLeftAndRight</td><td>法术指定物品的左侧与右侧物品</td><td>否</td></tr><tr><td>ChosenUp</td><td>法术指定物品的上方物品</td><td>否</td></tr><tr><td>ChosenDown</td><td>法术指定物品的下方物品</td><td>否</td></tr><tr><td>ChosenUpAndDown</td><td>法术指定物品的上方与下方物品</td><td>否</td></tr></tbody></table>
 
 ## 卡牌
 
