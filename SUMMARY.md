@@ -26,3 +26,4 @@
   * [CountSpecialVal](func/countspecialval.md)
   * [CountCountVal](func/countcountval.md)
   * [IsPendantExist](func/ispendantexist.md)
+  * [GetPendantData](func/getpendantdata.md)
