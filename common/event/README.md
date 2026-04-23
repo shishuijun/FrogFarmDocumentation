@@ -56,17 +56,17 @@ description: 事件
 
 将range的卡牌全部转换为名字为name的卡牌（可以被筛选），可选是否保留原卡牌的CountVal和SpecialVal
 
-retainCountVal: 0为不保留 1为保留
+retainCountVal: 是否保留CountVal，0为不保留，1为保留
 
-retainSpecialVal: 0为不保留 1为保留
+retainSpecialVal: 是否保留SpecialVal， 0为不保留，1为保留
 
 ### -TransferRangeRetain(GoalRange range;GoalRange goalRange;int retainCountVal;int retainSpecialVal)
 
 将range的卡牌全部转换为goalRange的卡牌（仅限一张），可选是否保留原卡牌的CountVal和SpecialVal
 
-retainCountVal: 0为不保留 1为保留
+retainCountVal: 是否保留CountVal，0为不保留，1为保留
 
-retainSpecialVal: 0为不保留 1为保留
+retainSpecialVal: 是否保留SpecialVal， 0为不保留，1为保留
 
 ### -TriggerTimeExplode(int num)
 
