@@ -52,6 +52,22 @@ description: 事件
 
 将range的卡牌全部转换为goalRange的卡牌（仅限一张）
 
+### -TransferRetain([GoalRange](../goalrange.md) range;string name;int retainCountVal;int retainSpecialVal)
+
+将range的卡牌全部转换为名字为name的卡牌（可以被筛选），可选是否保留原卡牌的CountVal和SpecialVal
+
+retainCountVal: 0为不保留 1为保留
+
+retainSpecialVal: 0为不保留 1为保留
+
+### -TransferRangeRetain(GoalRange range;GoalRange goalRange;int retainCountVal;int retainSpecialVal)
+
+将range的卡牌全部转换为goalRange的卡牌（仅限一张），可选是否保留原卡牌的CountVal和SpecialVal
+
+retainCountVal: 0为不保留 1为保留
+
+retainSpecialVal: 0为不保留 1为保留
+
 ### -TriggerTimeExplode(int num)
 
 触发时间爆炸，如果num为0，则会正常结算时间爆炸惩罚，若为1，则会免除时间爆炸惩罚
