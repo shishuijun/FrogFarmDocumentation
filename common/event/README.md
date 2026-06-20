@@ -189,8 +189,11 @@ NextRound(Global,DrawIgnoreLabel(0):1)
 将range的原始复制放入袋子中，并且对这些卡施加result效果
 
 例如:\
-把袋子中的法术牌复制一份并且施加消耗效果\
+把袋子中的法术牌复制一份并且施加消耗效果
+
+```
 BagInCopy(Filter(Bag'(Category'Is'Spell));SelfCard,EffectString,EConsume)
+```
 
 ### -BagInDerivativeNoInsect(int num;int needLevel;string result)
 
