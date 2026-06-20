@@ -164,6 +164,10 @@ NextRound(Global,DrawIgnoreLabel(0):1)
 
 下一张法术牌生效两次
 
+### -NextSpellPlayTwiceByTimeLabel(int timeLabel)
+
+下一张时间值为timeLabel的法术牌额外生效一次
+
 ## <mark style="color:orange;">Bag</mark>
 
 ### -BagIn(string name;int num;string result)
