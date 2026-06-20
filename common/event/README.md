@@ -190,11 +190,13 @@ NextRound(Global,DrawIgnoreLabel(0):1)
 必须与Watch(DrawCondition,...)搭配使用
 {% endhint %}
 
-将抽卡监听中监听到的牌复制一张放入袋子，并且对这张卡施加result效果
+将抽卡监听中监听到的牌复制一张放入袋子，并且对这张卡施加result效果(result可留空)
 
 例如：如果抽到法术牌，往袋子里放一张会消耗的复制
 
-Watch(DrawCondition,Category,Is,Spell) <\[BagInDrawCopy(SelfCard,EffectString,EConsume)]>
+```
+Watch(DrawCondition,Category,Is,Spell) <[BagInDrawCopy(SelfCard,EffectString,EConsume)]>
+```
 
 ### -BagInCopy(Range goalRange;string result)
 
