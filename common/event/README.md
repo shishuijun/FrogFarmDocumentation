@@ -8,6 +8,10 @@ description: 事件
 
 ## <mark style="color:orange;">Global</mark>
 
+### -TriggerAllRoundEnd(int num)&#x20;
+
+激活所有地里物品和挂件的RoundEnd效果num次，不推进回合进度
+
 ### -RandomForcePlace(string name;int num)
 
 地块上随机放num个name，如果地块上已经有物品，将原物品放回弃牌堆
