@@ -347,6 +347,20 @@ range和goal都仅限于land
 
 抽取两张牌（衍生物除外），弃掉一张
 
+### -ConsumeHandCards(string condition;int num;string result)&#x20;
+
+选择消耗num张符合条件的手牌，确认后执行后续效果
+
+如果没有足够符合条件的手牌，则会直接跳过选择并且不执行result效果
+
+例如：
+
+```
+ConsumeHandCards(TimeLabel,Equal,2;1;Global,Money,1)
+```
+
+消耗1张时间值为2的手牌，+1金币
+
 ## <mark style="color:orange;">Discard</mark>
 
 ### \[废弃]-DiscardBack(int num;int goal)
