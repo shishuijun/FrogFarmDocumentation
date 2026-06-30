@@ -459,3 +459,16 @@ goal   0：手牌   1：背包
 
 打开num张bingo或者刮刮乐
 
+### -OpenRangePack(Range goalRange;int needChooseNum;int includeDisasterCard)
+
+自定义开包范围goalRange，从该范围中随机三张牌，选择needChooseNum张牌获取\
+includeDisasterCard：是否包含灾年卡 0为不包含，1为包含
+
+例如：
+
+```
+OpenRangePack(Name,Contain,蘑菇;1;0)
+```
+
+发现1张蘑菇卡
+
